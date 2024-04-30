@@ -736,7 +736,6 @@ footer {
         height: 130rem;
     }
 }
-
 @media (max-width: 500px) {
     .principal{
         height: 150rem;
@@ -744,11 +743,11 @@ footer {
     .principal .texto h1{
         font-size: 6.8rem;
         margin-top: 10rem;
-        margin-left:-10rem;
+        margin-left: 2rem;
     }
     .principal .texto h2{
         margin-top: 15rem;
-        margin-left:-10rem;
+        margin-left: 2rem;
     }
     .principal .img img{
         margin-top: 30rem;
@@ -758,7 +757,7 @@ footer {
         margin-left: 4rem;
     }
     .sobre-min{
-        height: 380rem;
+        height: 350rem;
         display: flex;
         flex-direction: column;
     }
@@ -779,27 +778,28 @@ footer {
     }
     .sobre-min .img-sobre {
             width: 150px;
+            margin-top: -10rem;
     }
     .sobre-min .img-sobre span{
         font-size: 7rem;
-        margin-left: -40rem;
+        margin-left: -20rem;
 
     }
     .sobre-min .img-sobre i{
         font-size: 10rem;
-        margin-top: 20rem;
+        margin-top: 5rem;
         margin-left: -5rem;
     }
     .sobre-min .texto-sobre p{
-        font-size: 6@rem; 
-        margin-top: 3rem;  
+        font-size: 6.8rem; 
+        margin-top: -1rem;  
     }
     .sobre-min .texto-sobre h1 {
         font-size: 6rem;
-    
     }
-    .sobre-min . texto{
-        margin-top:2rem;
+    .texto-sobre{
+       
+        margin-bottom: 120rem;
     }
     .global img{
         width: 550px;
