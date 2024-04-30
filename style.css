@@ -782,7 +782,7 @@ footer {
     }
     .sobre-min .img-sobre span{
         font-size: 7rem;
-        margin-left: -20rem;
+        margin-left: -28rem;
 
     }
     .sobre-min .img-sobre i{
@@ -798,8 +798,7 @@ footer {
         font-size: 6rem;
     }
     .texto-sobre{
-       
-        margin-bottom: 120rem;
+       margin-bottom: 10rem;
     }
     .global img{
         width: 550px;
