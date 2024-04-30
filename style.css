@@ -744,11 +744,11 @@ footer {
     .principal .texto h1{
         font-size: 6.8rem;
         margin-top: 10rem;
-        margin-left:20rem;
+        margin-left:-10rem;
     }
     .principal .texto h2{
         margin-top: 15rem;
-        margin-left:20rem;
+        margin-left:-10rem;
     }
     .principal .img img{
         margin-top: 30rem;
@@ -782,7 +782,7 @@ footer {
     }
     .sobre-min .img-sobre span{
         font-size: 7rem;
-        margin-left: -30rem;
+        margin-left: -40rem;
 
     }
     .sobre-min .img-sobre i{
@@ -791,12 +791,15 @@ footer {
         margin-left: -5rem;
     }
     .sobre-min .texto-sobre p{
-        font-size: 5rem; 
+        font-size: 6@rem; 
         margin-top: 3rem;  
     }
     .sobre-min .texto-sobre h1 {
         font-size: 6rem;
     
+    }
+    .sobre-min . texto{
+        margin-top:2rem;
     }
     .global img{
         width: 550px;
