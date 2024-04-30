@@ -744,7 +744,7 @@ footer {
     .principal .texto h1{
         font-size: 6.8rem;
         margin-top: 10rem;
-        margin-left:30rem;
+        margin-left:20rem;
     }
     .principal .texto h2{
         margin-top: 15rem;
@@ -758,7 +758,7 @@ footer {
         margin-left: 4rem;
     }
     .sobre-min{
-        height: 420rem;
+        height: 380rem;
         display: flex;
         flex-direction: column;
     }
@@ -791,8 +791,8 @@ footer {
         margin-left: -5rem;
     }
     .sobre-min .texto-sobre p{
-        font-size: 6rem; 
-        margin-top: 5rem;  
+        font-size: 5rem; 
+        margin-top: 3rem;  
     }
     .sobre-min .texto-sobre h1 {
         font-size: 6rem;
