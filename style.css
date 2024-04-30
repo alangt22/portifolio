@@ -741,11 +741,22 @@ footer {
     .principal{
         height: 150rem;
     }
+    .principal .texto h1{
+        font-size: 6.8rem;
+        margin-top: 10rem;
+    }
+    .principal .texto h2{
+        margin-top: 15rem;
+    }
     .principal .img img{
         margin-top: 30rem;
     }
+    .content .logo h3{
+        font-size: 5rem;
+        margin-left: 4rem;
+    }
     .sobre-min{
-        height: 500rem;
+        height: 450rem;
         display: flex;
         flex-direction: column;
     }
@@ -775,6 +786,7 @@ footer {
     .sobre-min .img-sobre i{
         font-size: 10rem;
         margin-top: 20rem;
+        margin-left: -5rem;
     }
     .sobre-min .texto-sobre p{
         font-size: 8rem; 
@@ -805,26 +817,45 @@ footer {
         flex-direction: column;
         justify-content: space-between;
         margin-bottom: 40rem;
-        gap: 50px;
+        gap: 80px;
     }
     .contatos-secao a{
         font-size: 25rem;
     }
-   
+    content.on .menu-toggle .two {
+        opacity: 0;
+    }
+    .content.on .menu-toggle .one {
+        transform: rotate(55deg) translate(7px, -8px );
+    }
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -6px );
+    }
     .content.on .list-menu li {
         display: flex;
         justify-content: center;
+        margin-right: 12rem;
     
     }
-
     .content.on .list-menu li a {
         font-size: 7rem;
-        margin-right: 10rem;
+        
         margin: 5rem;
     }
     .menu-toggle {
-    
+        width: 50px;
+        height: 50px;
         margin-right: 10rem;
+    }
+    .one,
+    .two,
+    .three {
+        width: 80%;
+        height: 5px;
+        
+    }
+    footer{
+        font-size: 3rem;
     }
 
 }
