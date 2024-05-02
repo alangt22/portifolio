@@ -809,10 +809,20 @@ footer {
     .global img{
         width: 550px;
         height: 550px;
+        align-items: center;
+        justify-content: center;
+        
     }
     .global a{
         font-size: 8rem;
         margin-top: 5rem; 
+    }
+    .global span{
+        display: contents;
+        font-size: 10rem;
+        color: #008fee;
+        align-items: center;
+        justify-content: center;
     }
     .contatos{
         height: 150rem;
