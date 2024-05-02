@@ -771,10 +771,10 @@ footer {
         gap: 500px;
     }
     .sobre-min .img-sobre img{
-        width: 350px;
-        height: 350px;
-        margin-left: -15rem;
-        margin-top: 15rem;
+        width: 550px;
+        height: 550px;
+        margin-left: -31rem;
+        margin-top: -2rem;
     }
     .sobre-min .img-sobre {
             width: 150px;
@@ -791,8 +791,9 @@ footer {
         margin-left: -5rem;
     }
     .sobre-min .texto-sobre p{
-        font-size: 6rem; 
-        margin-top: -5rem;  
+        font-size: 5.9rem; 
+        margin-top:-2px ;
+          
     }
     .sobre-min .texto-sobre h1 {
         font-size: 6rem;
