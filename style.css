@@ -757,9 +757,11 @@ footer {
         margin-left: 4rem;
     }
     .sobre-min{
-        height: 290rem;
+        height: 250rem;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .projetos{
         height: 700rem;
@@ -768,12 +770,12 @@ footer {
         height: 500rem;
         display: flex;
         flex-direction: column;
-        gap: 500px;
+        gap: 300px;
     }
     .sobre-min .img-sobre img{
         width: 550px;
         height: 550px;
-        margin-left: -28rem;
+        margin-left: -23rem;
         margin-top: -2rem;
     }
     .sobre-min .img-sobre {
@@ -802,7 +804,7 @@ footer {
        margin-top: 0rem;
     }
     .img-sobre{
-        margin-bottom: -5rem;
+        margin-bottom: 0rem;
     }
     .global img{
         width: 550px;
