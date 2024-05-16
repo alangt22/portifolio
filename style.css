@@ -54,11 +54,11 @@ html {
 
 }
 .content .list-menu li a {
-    padding: 3rem 1rem 2rem 1rem ;
+    padding: 3rem -10rem 1rem 1rem ;
     color: white;
     font-size: 1.2rem;
     text-transform:uppercase;
-    font-weight: 50px;
+    font-weight: 30px;
     transition: all 200ms ease-in;
     text-decoration: none;
 }
@@ -250,6 +250,7 @@ html {
     flex-direction: column;
     color: aqua;
     align-items: center;
+    text-decoration: none;
 }
 .global img{
     width: 100%;
@@ -259,7 +260,7 @@ html {
     transition: all 200ms ease-in;
 }
 .links span{
-    color: aliceblue;
+    color:#008fee;
     margin-top: 1rem;
     font-size: 1.8rem;
 }
@@ -277,6 +278,7 @@ html {
 .links a:hover{
     color: #008fee;
     border-bottom: 1.5px solid #ffffff;
+    text-decoration: none;
 
 }
 .projetos h1{
@@ -285,7 +287,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:white;
 }
 
 
@@ -328,6 +330,33 @@ html {
 }
 
 
+.btn button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:black;
+    border-radius: 10px;
+    color:#008fee ;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+
+}
+
+.btn button:hover {
+    border: 1px solid #008fee;
+    background-color: transparent;
+    color:#008fee
+    
+}
+
+.btn {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;   
+    
+}
 
 
 /* Footer */
@@ -344,6 +373,12 @@ footer {
 
 
 
+button{
+    border-radius: 5rem;
+    color: transparent;
+    border: solid 4px black;
+
+}
 
 
 
@@ -754,7 +789,7 @@ footer {
     }
     .content .logo h3{
         font-size: 5rem;
-        margin-left: 4rem;
+        margin-left: 18rem;
     }
     .sobre-min{
         height: 250rem;
@@ -825,8 +860,9 @@ footer {
         justify-content: center;
     }
     .contatos{
-        height: 150rem;
+        height: 180rem;
         gap: 250px;
+        margin-bottom: 17rem;
     }
     .contatos h3{
         font-size: 15rem;
@@ -841,6 +877,7 @@ footer {
     }
     .contatos-secao a{
         font-size: 25rem;
+
     }
     .content{
         width: 100%;
@@ -850,7 +887,7 @@ footer {
         opacity: 0;
     }
     .content.on .menu-toggle .one {
-        transform: rotate(45deg) translate(5px, -6px );
+        transform: rotate(45deg) translate(10px, -1px );
     }
     .content.on .menu-toggle .three {
         transform: rotate(-45deg) translate(20px, -8px );
@@ -867,7 +904,7 @@ footer {
         margin: 5rem;
     }
     .menu-toggle {
-        width: 50px;
+        width: 80px;
         height: 50px;
         margin-right: 10rem;
     }
@@ -875,7 +912,7 @@ footer {
     .two,
     .three {
         width: 80%;
-        height:4px;
+        height:8px;
         background-color: white;
         margin: 6px;
         margin-left: -40px;
@@ -883,6 +920,17 @@ footer {
     }
     footer{
         font-size: 3rem;
+       
+    }
+    .btn{
+        display: flex;
+        margin-left: -60rem;  
+    }
+    .btn button{
+        height: 20rem;
+        width: 70rem;
+        margin-top: 2rem;
+        font-size: 5rem;
     }
 
 }
