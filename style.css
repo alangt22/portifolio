@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -383,6 +382,14 @@ button{
     color: transparent;
     border: solid 4px black;
 
+<<<<<<< HEAD
+=======
+button{
+    border-radius: 5rem;
+    color: transparent;
+    border: solid 4px black;
+
+>>>>>>> 22a546b64706c2172d752205eb14d51148f5063d
 }
 
 
@@ -924,6 +931,7 @@ button{
         transition-duration: 0.8s;
     }
     footer{
+<<<<<<< HEAD
         background-color: #ffffff;
         height: 7rem;
         font-size: 3rem;
@@ -935,6 +943,11 @@ button{
     footer h4{
         color: #000000;
     }
+=======
+        font-size: 3rem;
+       
+    }
+>>>>>>> 22a546b64706c2172d752205eb14d51148f5063d
     .btn{
         display: flex;
         margin-left: -60rem;  
@@ -1038,7 +1051,4 @@ button{
         margin-right: 10rem;
     }
 
-
-
 }
-
