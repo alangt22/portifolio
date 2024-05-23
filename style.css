@@ -54,11 +54,11 @@ html {
 
 }
 .content .list-menu li a {
-    padding: 3rem 1rem 2rem 1rem ;
+    padding: 3rem -10rem 1rem 1rem ;
     color: white;
     font-size: 1.2rem;
     text-transform:uppercase;
-    font-weight: 50px;
+    font-weight: 30px;
     transition: all 200ms ease-in;
     text-decoration: none;
 }
@@ -250,6 +250,7 @@ html {
     flex-direction: column;
     color: aqua;
     align-items: center;
+    text-decoration: none;
 }
 .global img{
     width: 100%;
@@ -259,7 +260,7 @@ html {
     transition: all 200ms ease-in;
 }
 .links span{
-    color: aliceblue;
+    color:#008fee;
     margin-top: 1rem;
     font-size: 1.8rem;
 }
@@ -277,6 +278,7 @@ html {
 .links a:hover{
     color: #008fee;
     border-bottom: 1.5px solid #ffffff;
+    text-decoration: none;
 
 }
 .projetos h1{
@@ -285,7 +287,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color:white;
 }
 
 
@@ -328,22 +330,60 @@ html {
 }
 
 
+.btn button {
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color:black;
+    border-radius: 10px;
+    color:#008fee ;
+    font-weight: 700;
+    transition: all 400ms ease-in;
+
+}
+
+.btn button:hover {
+    border: 1px solid #008fee;
+    background-color: transparent;
+    color:#008fee
+    
+}
+
+.btn {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15rem;   
+    
+}
 
 
 /* Footer */
 footer {
     height: 25px;
-    background-color: black;
-    color: white;
+    display: flex;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    
     font-size: 1.1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+footer a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
 
 
 
+button{
+    border-radius: 5rem;
+    color: transparent;
+    border: solid 4px black;
 
+}
 
 
 
@@ -736,81 +776,176 @@ footer {
         height: 130rem;
     }
 }
-
 @media (max-width: 500px) {
-    
-    .one,
-    .two,
-    .three {
-        width: 80%;
-        height: 4px;
-        background-color: white;
-        margin: 7px 7px;
-        transition-duration: 0.5s;
+    .principal{
+        height: 150rem;
+    }
+    .principal .texto h1{
+        font-size: 6.8rem;
+        margin-top: 10rem;
+        margin-left:-2rem;
+    }
+    .principal .texto h2{
+        margin-top: 15rem;
+        margin-left: 2rem;
+    }
+    .principal .img img{
+        margin-top: 30rem;
+    }
+    .content .logo h3{
+        font-size: 5rem;
+        margin-left: 18rem;
+    }
+    .sobre-min{
+        height: 250rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .projetos{
+        height: 700rem;
+    }
+    .global{
+        height: 500rem;
+        display: flex;
+        flex-direction: column;
+        gap: 300px;
+    }
+    .sobre-min .img-sobre img{
+        width: 550px;
+        height: 550px;
+        margin-left: -23rem;
+        margin-top: -2rem;
+    }
+    .sobre-min .img-sobre {
+            width: 150px;
+            margin-top: 5rem;
+    }
+    .sobre-min .img-sobre span{
+        font-size: 7rem;
+        margin-left: -25rem;
+
+    }
+    .sobre-min .img-sobre i{
+        font-size: 10rem;
+        margin-top: 5rem;
+        margin-left: -5rem;
+    }
+    .sobre-min .texto-sobre p{
+        font-size: 5.9rem; 
+        margin-top:-2px ;
+          
+    }
+    .sobre-min .texto-sobre h1 {
+        font-size: 6rem;
+    }
+    .texto-sobre{
+       margin-top: 0rem;
+    }
+    .img-sobre{
+        margin-bottom: 0rem;
+    }
+    .global img{
+        width: 550px;
+        height: 550px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .global a{
+        font-size: 8rem;
+        margin-top: 5rem; 
+    }
+    .global span{
+        display: contents;
+        font-size: 10rem;
+        color: #008fee;
+        align-items: center;
+        justify-content: center;
+    }
+    .contatos{
+        height: 180rem;
+        gap: 250px;
+        margin-bottom: 17rem;
+    }
+    .contatos h3{
+        font-size: 15rem;
+        margin-top: -40rem;
+    }
+    .contatos-secao{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 40rem;
+        gap: 80px;
+    }
+    .contatos-secao a{
+        font-size: 25rem;
+
     }
     .content{
         width: 100%;
         height: 10%;
-        
-    }
-    .content img{
-        margin-top: -7rem;
-    }
-    .content h3{
-        margin-top: -7rem;
-    }
-    .menu-toggle {
-        width: 30px;
-        height: 30px;
-        width: 11%;
-        height: 2px;
-        margin: 6px 40px;
-        margin-top: 0rem;
-    }
-    .content .logo {
-        margin-top: 9rem;
-    }
-    .principal{
-        height: 130rem;
-    }
-    .principal .img img{
-        margin-top: 20rem;
-    }
-    .sobre-min{
-        height: 150rem;
-    }
-    .sobre-min .img-sobre span{
-        font-size: 3.5rem;
-        margin-left: 1rem;
-    }
-    .projetos{
-        height: 150rem;
-    }
-        .global{
-        width: 90%;
-        margin-top: 2rem;
-        margin-bottom: 19em;
-        display:grid;
-        grid-template-columns: repeat(2, minmax(330px, 20px));
-        justify-content: center;
-        align-items: center;
-        gap: 35px;
-    }
-    .content.on .list-menu li a {
-        font-size: 4rem;
-        margin-right: 10rem;
     }
     .content.on .menu-toggle .two {
         opacity: 0;
     }
-
     .content.on .menu-toggle .one {
-        transform: rotate(45deg) translate(20px, -1px );
+        transform: rotate(45deg) translate(10px, -1px );
+    }
+    .content.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(20px, -8px );
+    }
+    .content.on .list-menu li {
+        display: flex;
+        justify-content: center;
+        margin-right: 12rem;
+    
+    }
+    .content.on .list-menu li a {
+        font-size: 7rem;
+        
+        margin: 5rem;
+    }
+    .menu-toggle {
+        width: 80px;
+        height: 50px;
+        margin-right: 10rem;
+    }
+    .one,
+    .two,
+    .three {
+        width: 80%;
+        height:8px;
+        background-color: white;
+        margin: 6px;
+        margin-left: -40px;
+        transition-duration: 0.8s;
+    }
+    footer{
+        background-color: #ffffff;
+        height: 7rem;
+        font-size: 3rem;
+       
+    }
+    footer img{
+        margin-bottom: 4px;
+    }
+    footer h4{
+        color: #000000;
+    }
+    .btn{
+        display: flex;
+        margin-left: -60rem;  
+    }
+    .btn button{
+        height: 20rem;
+        width: 70rem;
+        margin-top: 2rem;
+        font-size: 5rem;
     }
 
-    .content.on .menu-toggle .three {
-        transform: rotate(-49deg) translate(10px, 1px );
-    }
 }
 
 @media (max-width: 395px) {
