@@ -381,13 +381,12 @@ button{
     border-radius: 5rem;
     color: transparent;
     border: solid 4px black;
+}
 
 button{
     border-radius: 5rem;
     color: transparent;
     border: solid 4px black;
-
-
 }
 
 
@@ -940,12 +939,11 @@ button{
     }
     footer h4{
         color: #000000;
+        font-size: 3rem;       
     }
-
-        font-size: 3rem;
+        
        
-    }
-
+    
     .btn{
         display: flex;
         margin-left: -60rem;  
